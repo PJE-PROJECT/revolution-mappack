@@ -64,6 +64,9 @@ item replace entity @e[type=minecraft:item_display,tag=portal_spawner_lights] co
 
 execute as @a[limit=1] at @s run function saves:save_quick
 attribute @a[limit=1] minecraft:generic.gravity base set 0.08
+attribute @a[limit=1] minecraft:generic.movement_speed base set 0.09
+
+
 
 execute at @a[limit=1] run function elevator:reset_arrival
 execute at @a[limit=1] run function elevator:reset_departure

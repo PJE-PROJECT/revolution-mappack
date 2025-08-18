@@ -149,3 +149,4 @@ execute as @e[type=minecraft:item_frame,tag=orange_gel,tag=mid] at @s run functi
 execute as @e[type=minecraft:item_frame,tag=blue_gel,tag=mid] at @s run function gels:blue/check_texture
 
 attribute @a[limit=1] minecraft:generic.gravity base set 0.08
+attribute @a[limit=1] minecraft:generic.movement_speed base set 0.09
