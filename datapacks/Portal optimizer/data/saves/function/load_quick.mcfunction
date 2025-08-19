@@ -7,6 +7,11 @@ tp @a[tag=test_subject] @e[type=minecraft:marker,tag=savedplayercoords,limit=1]
 kill @e[type=minecraft:armor_stand,tag=cube,tag=!hoverignore]
 kill @e[type=minecraft:armor_stand,tag=radio,tag=prop,tag=!hoverignore]
 kill @e[type=minecraft:armor_stand,tag=portalcamera_unmount,tag=prop]
+
+kill @e[tag=loading_logo_stand]
+kill @e[tag=loading_logo_p]
+
+
 kill @e[tag=sbpg.portal]
 kill @e[tag=pic]
 kill @e[tag=laser]
@@ -149,4 +154,3 @@ execute as @e[type=minecraft:item_frame,tag=orange_gel,tag=mid] at @s run functi
 execute as @e[type=minecraft:item_frame,tag=blue_gel,tag=mid] at @s run function gels:blue/check_texture
 
 attribute @a[limit=1] minecraft:generic.gravity base set 0.08
-attribute @a[limit=1] minecraft:generic.movement_speed base set 0.09
