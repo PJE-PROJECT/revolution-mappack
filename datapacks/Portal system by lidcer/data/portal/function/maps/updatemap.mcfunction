@@ -1,5 +1,3 @@
-kill @e[type=marker,tag=player.pos.light.resume]
-
 scoreboard players set update map 0
 scoreboard players set lightresume map 0
 

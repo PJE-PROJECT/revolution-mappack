@@ -5,8 +5,6 @@ gamerule sendCommandFeedback true
 item replace entity @e[type=item_display,tag=white.fakesky.display] container.0 with white_terracotta
 kill @e[tag=shadowmap_stopframe]
 tp @a[limit=1] @e[type=marker,tag=player.pos.light.resume,limit=1]
-kill @e[type=marker,tag=player.pos.light.resume]
-
 function excursion_funnel:update
 
 execute if score update load matches 1.. as @a[limit=1] at @s run function saves:load_quick
