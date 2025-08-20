@@ -1,3 +1,4 @@
+say begin
 tp @a[limit=1] @e[tag=shadowmap,limit=1]
 
 
