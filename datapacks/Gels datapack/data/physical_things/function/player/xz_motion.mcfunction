@@ -40,6 +40,3 @@ playsound minecraft:player_bounce_jump_paint_01 ambient @a ~ ~ ~ 0.5 1 0
 
 
 function delta:api/launch_xyz
-#say 1
-#say 3
-#tag @s add y_motion_tp
