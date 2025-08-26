@@ -1,3 +1,4 @@
+kill @e[tag=motion_blur]
 tag @s[type=player] add pickoff_block
 tp @e[type=minecraft:turtle,tag=SitPlate] ~ -666 ~
 kill @e[type=minecraft:turtle,tag=SitPlate]
